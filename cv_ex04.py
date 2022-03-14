@@ -1,6 +1,6 @@
-# 카메라 연결
+#웹 서버 연결
 import cv2
-cap = cv2.VideoCapture(0) #1번 카메라
+cap = cv2.VideoCapture('http://172.30.1.53:4747/video') # ip camera(Web cam) -mjpeg jpg 사진을 연속해서 계속 보여주는것
 # cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
 # cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
 
