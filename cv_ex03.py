@@ -13,7 +13,7 @@ while True:
     if not retval: break
     
     cv2.imshow('frame', frame)
-    key = cv2.waitKey(25)
+    key = cv2.waitKey(25)   # 초당 40프레임. 
     if key == 27: break     #Esc 누른 경우 루프 탈출
     
 if cap.isOpened(): 
